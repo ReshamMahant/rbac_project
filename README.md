@@ -1,17 +1,55 @@
-# Role Based Access Control (...still in dev mode...)
+# Role-Based Access Control (RBAC) UI
 
-This is a Role Based Access Control application using Nodejs, Express, Passport Js, etc.
-You can use this application as the starting point for whatever project you are going to build which needs authentication and authorization.
+## **Project Overview**
 
-For authentication we have only Email & Password option but other authentication options using OAuth/OAuth2.0 like Google, Facebook, Apple, GitHub, etc, can be easily incorporated.
+This project implements a **Role-Based Access Control (RBAC)** User Interface for managing users, roles, and permissions. It allows administrators to efficiently assign roles, define permissions, and manage user access in a secure and intuitive dashboard. The application is designed to provide a seamless and responsive experience, ensuring ease of use across devices.
 
-The application is based on the **MVC pattern** i.e. Model View Controller.
+## **Features**
 
-**Mongoose** is used as an ORM for MongoDB for storing Users in Database.
+### **Core Functionalities**
+1. **User Management**
+   - View, add, edit, and delete users.
+   - Assign roles to users and manage their status (Active/Inactive).
+2. **Role Management**
+   - Create and edit roles.
+   - Assign permissions (Read, Write, Delete) to roles.
+   - Define custom attributes for roles.
+3. **Dynamic Permissions**
+   - Assign or modify permissions for roles dynamically.
+   - Clearly display permissions for easier management.
+4. **Custom API Simulation** (Optional)
+   - Mock API calls to simulate CRUD operations for users and roles.
+   - Validate functionality with simulated server responses.
 
-**Passport JS** is used for local(email, password) authentication.
+### **Additional Features**
+- **Search, Sort, and Filter**: Easily find users or roles with integrated search and filter options.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop devices.
+- **Security Practices**: Input validation, error handling, and adherence to best practices for a robust user experience.
 
-The application is _almost_ **production ready**.
+---
+
+## **Tech Stack**
+
+- **Frontend Framework**: React.js (or your chosen framework/library)
+- **State Management**: Redux (or Context API, if applicable)
+- **Styling**: Tailwind CSS / Bootstrap / Material-UI
+- **API Simulation**: JSON Server / Axios (optional for mock API)
+
+---
+
+## **Setup Instructions**
+
+### **Prerequisites**
+- Node.js (v16+ recommended)
+- npm or yarn package manager
+- Git (for cloning the repository)
+
+### **Installation**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/rbac-ui.git
+   cd rbac-ui
+
 
 ---
 
@@ -55,7 +93,7 @@ npm start
 
 ## Author
 
-- [**Truly Mittal**](https://trulymittal.com)
+- [**Resham Mahant**]
 
 ## Contribute
 
